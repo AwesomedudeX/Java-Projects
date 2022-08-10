@@ -1,4 +1,3 @@
-package com.concept.myPackage;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -21,7 +20,7 @@ public class SupercarStats {
 			Random randomNum = new Random();
 			int randomCarNum = randomNum.nextInt(carNum.length);
 			
-			String[] carNames = {"Aston Martin One-77", "Bugatti Chiron Super Sport", "Bugatti Veyron", "Chevrolet Camaro ZL1", "Devel 16", "Koenigsegg Agera RS", "Koenigsegg Gemera", "Koenigsegg Jesko", "Lamborghini Asterion", "Lamborghini Aventador", "Lamborghini Huracan", "Lamborghini Sián FKP 37", "Lamborghini Terzo Millenio", "Lamborghini Veneno", "McLaren 12C Spider", "McLaren Senna", "McLaren Speedtail", "Nissan GT-R Nismo", "Porsche 918 Spyder"};
+			String[] carNames = {"Aston Martin One-77", "Bugatti Chiron Super Sport", "Bugatti Veyron", "Chevrolet Camaro ZL1", "Devel 16", "Koenigsegg Agera RS", "Koenigsegg Gemera", "Koenigsegg Jesko", "Lamborghini Asterion", "Lamborghini Aventador", "Lamborghini Huracan", "Lamborghini SiÃ¡n FKP 37", "Lamborghini Terzo Millenio", "Lamborghini Veneno", "McLaren 12C Spider", "McLaren Senna", "McLaren Speedtail", "Nissan GT-R Nismo", "Porsche 918 Spyder"};
 			int[] topSpeeds = {319, 320, 325, 325, 329, 330, 335, 340, 348, 350, 351, 354, 355, 400, 403, 410, 439, 447, 483, 560};
 
 			switch (carname) {
@@ -61,8 +60,8 @@ public class SupercarStats {
 					printS("\nFord GT" + "\n\nTop Speed: " + topSpeeds[8] + "km/h" + "\nAcceleration Speed: 3.1 seconds to 100km/h" + "\nEngine Type: V6" + "\nRPM: 6500" + "\nHorsePower: 660" + "\nMileage: 17L/100km" + "\nDefining Features: Sleek and Strong Design, Circular Taillights, 2 Small Rocket-Like Exhausts");
 					break;
 
-				case "Lamborghini Sián FKP 37":
-					printS("\nLamborghini Sián FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+				case "Lamborghini SiÃ¡n FKP 37":
+					printS("\nLamborghini SiÃ¡n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 					break;
 				
 				case "Lamborghini Aventador":
@@ -153,7 +152,7 @@ public class SupercarStats {
 							break;
 							
 						case 10:
-							printS("\nLamborghini Sián FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+							printS("\nLamborghini SiÃ¡n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 							break;
 
 						case 11:
@@ -237,7 +236,7 @@ public class SupercarStats {
 						case "V12":
 							printS("\nAston Martin One-77:" + "\n\nTop Speed: " + topSpeeds[11] + "km/h" + "\nAcceleration Speed: 3.6 seconds to 100km/h" + "\nRPM: 6500" + "\nHorsePower: 750" + "\nMileage: 17L/100km" + "\nDefining Features: Sleek and Compact Design");							
 							printS("\nLamborghini Aventador:" + "\n\nTop Speed: " + topSpeeds[10] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nRPM: 8500" + "\nHorsePower: 759" + "\nMileage: 20L/100km" + "\nDefining Features: Single, Wide Rear Exhaust, Sleek and Stylish Design");
-							printS("\nLamborghini Sián FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+							printS("\nLamborghini SiÃ¡n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 							printS("\nLamborghini Terzo Millenio:" + "\n\nTop Speed: " + topSpeeds[3] + "km/h" + "\nAcceleration Speed: 3 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8000" + "\nHorsePower: 630" + "\nMileage: 350km/Fully Charged Battery" + "\nDefining Features: Self-Driving on Race Tracks, Separate Engines on Each Wheel, Futuristic Design, Can Fix Itself If It Is Damaged");
 							printS("\nLamborghini Veneno:" + "\n\nTop Speed: " + topSpeeds[12] + "km/h" + "\nAcceleration Speed: 2.9 seconds to 100km/h" + "\nRPM: 8400" + "HorsePower: 750" + "\nMileage: 18L/100km" + "\nDefining Features: Sharp, Spiky Front, Futuristic and Strong Design, Tough, Solid and Sleek Exterior");
 							break;
@@ -279,7 +278,7 @@ public class SupercarStats {
 						case "Lamborghini":
 							printS("\nLamborghini Aventador:" + "\n\nTop Speed: " + topSpeeds[10] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 759" + "\nMileage: 20L/100km" + "\nDefining Features: Single, Wide Rear Exhaust, Sleek and Stylish Design");
 							printS("\nLamborghini Huracan:" + "\n\nTop Speed: " + topSpeeds[2] + "km/h" + "\nAcceleration Speed: 2.9 seconds to 100km/h" + "\nEngine Type: V10" + "\nRPM: 8000" + "\nHorsePower: 630" + "\nMileage: 15L/100km" + "\nDefining Features: Optional Convertible, Sleek and Stylish Design, Exhausts on Sides of License Plate");
-							printS("\nLamborghini Sián FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+							printS("\nLamborghini SiÃ¡n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 							printS("\nLamborghini Asterion:" + "\n\nTop Speed: " + topSpeeds[1] + "km/h" + "\nAcceleration Speed: 3 seconds to 100km/h" + "\nEngine Type: V10" + "\nRPM: 8250" + "\nHorsePower: 897" + "\nMileage: 4L/100km, 50km/Fully Charged Battery" + "\nDefining Features: Bulky, Sleek and Subtle Design, Powerful Engine, Hexagonal Dual Twin Exhausts");
 							printS("\nLamborghini Terzo Millenio:" + "\n\nTop Speed: " + topSpeeds[3] + "km/h" + "\nAcceleration Speed: 3 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8000" + "\nHorsePower: 630" + "\nMileage: 350km/Fully Charged Battery" + "\nDefining Features: Self-Driving on Race Tracks, Separate Engines on Each Wheel, Futuristic Design, Can Fix Itself If It Is Damaged");
 							printS("\nLamborghini Veneno:" + "\n\nTop Speed: " + topSpeeds[12] + "km/h" + "\nAcceleration Speed: 2.9 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8400" + "HorsePower: 750" + "\nMileage: 18L/100km" + "\nDefining Features: Sharp, Spiky Front, Futuristic and Strong Design, Tough, Solid and Sleek Exterior");
