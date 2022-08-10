@@ -1,5 +1,3 @@
-package com.concept.myPackage;
-
 //Method used: "Swing"
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
