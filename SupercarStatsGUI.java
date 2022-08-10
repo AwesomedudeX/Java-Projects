@@ -1,5 +1,3 @@
-package com.concept.myPackage;
-
 //Method used: "Swing"
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
@@ -85,7 +83,7 @@ public class SupercarStatsGUI implements ActionListener {
 		button14 = new JButton("McLaren Senna");
 		button15 = new JButton("Porsche 918 Spyder");
 		button16 = new JButton("Ford GT");
-		button17 = new JButton("Lamborghini Si·n FKP 37");
+		button17 = new JButton("Lamborghini Si√°n FKP 37");
 		button18 = new JButton("Lamborghini Aventador");
 		button19 = new JButton("Aston Martin One-77");
 		button20 = new JButton("Lamborghini Veneno");
@@ -245,7 +243,7 @@ public class SupercarStatsGUI implements ActionListener {
 					break;
 				
 				case 10:
-					printS("\nLamborghini Si·n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+					printS("\nLamborghini Si√°n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 					break;
 
 				case 11:
@@ -307,7 +305,7 @@ public class SupercarStatsGUI implements ActionListener {
 		} else if (e.getSource() == button16) {
 			printS("\nFord GT" + "\n\nTop Speed: " + topSpeeds[8] + "km/h" + "\nAcceleration Speed: 3.1 seconds to 100km/h" + "\nEngine Type: V6" + "\nRPM: 6500" + "\nHorsePower: 660" + "\nMileage: 17L/100km" + "\nDefining Features: Sleek and Strong Design, Circular Taillights, 2 Small Rocket-Like Exhausts");
 		} else if (e.getSource() == button17) {
-			printS("\nLamborghini Si·n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
+			printS("\nLamborghini Si√°n FKP 37" + "\n\nTop Speed: " + topSpeeds[9] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 774" + "\nMileage: 2800L/100km's Equivalent of Battery and Gas Usage (Hybrid)" + "\nDefining Features: Strong, Sleek and Racecar-Like Design, Unique Headlight and Taillight Design, 2 Large Flipped, Pentagonal Exhausts");
 		} else if (e.getSource() == button18) {
 			printS("\nLamborghini Aventador:" + "\n\nTop Speed: " + topSpeeds[10] + "km/h" + "\nAcceleration Speed: 2.8 seconds to 100km/h" + "\nEngine Type: V12" + "\nRPM: 8500" + "\nHorsePower: 759" + "\nMileage: 20L/100km" + "\nDefining Features: Single, Wide Rear Exhaust, Sleek and Stylish Design");
 		} else if (e.getSource() == button19) {
